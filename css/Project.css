@@ -138,3 +138,61 @@ ul a, ul a:visited {
     }
 }
 
+/* media queries */
+
+@media only screen and (max-width: 900px) {
+
+    .projects-header {
+        margin-bottom: 25px;
+    }
+
+    .project {
+        width: 45vw;
+    }
+
+    .arrow {
+        height: 50px;
+    }
+
+}
+
+@media only screen and (725px <= width <= 900px) {
+
+    .carousel-wrapper {
+        max-width: 70vw;
+    }
+
+    .project {
+        max-width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 725px) {  
+    .carousel {
+        width: 90vw;
+    }
+    
+    .arrow {
+        height: 30px;
+    }
+    
+    .project {
+        width: 60vw;
+        max-width: 60vw;
+
+        img {
+            max-height: 25vh;
+        }
+        
+        ul {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .carousel-wrapper {
+        max-width: 90vw;
+    }
+    
+}

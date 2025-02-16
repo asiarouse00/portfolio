@@ -12,7 +12,7 @@
 }
 
 .landing p {
-    margin: 10px;
+    margin: 0;
 }
 
 .landing .headings {
@@ -75,3 +75,45 @@
     -moz-animation: hover-bounce 1.5s infinite;
 }
 
+/* smaller screen / tablet */
+
+@media only screen and (max-width: 900px) {
+
+    .landing {
+
+        .buttons {
+            margin: 20px 0 0 0;
+        }
+    }
+
+    .name {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (725px <= width <= 900px) {
+
+    .landing-page {
+        line-height: 48px;
+    }
+
+}
+
+@media only screen and (max-width: 725px) {
+    
+    .landing {
+        font-size: 30px;
+        line-height: 40px;
+
+        .buttons {
+            width: 75vw;
+            flex-wrap: wrap;
+        }
+    }
+
+    .name {
+        font-size: 40px;
+    }
+}

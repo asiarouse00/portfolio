@@ -37,23 +37,23 @@ function About(props) {
                     <div className='technologies-container'>
                         <div className='tech'>
                             <img src={cplusplus} />
-                            <h4>C++</h4>
+                            <h4>c++</h4>
                         </div>
                         <div className='tech'>
                             <img src={css} />
-                            <h4>CSS</h4>
+                            <h4>css</h4>
                         </div>
                         <div className='tech'>
                             <img src={js} />
-                            <h4>Javascript</h4>
+                            <h4>javascript</h4>
                         </div>
                         <div className='tech'>
                             <img src={python} />
-                            <h4>Python</h4>
+                            <h4>python</h4>
                         </div>
                         <div className='tech'>
                             <img src={react} />
-                            <h4>React</h4>
+                            <h4>react</h4>
                         </div>
                     </div>
                 </div>            

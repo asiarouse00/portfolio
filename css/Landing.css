@@ -69,10 +69,6 @@
     background-color: var(--border-colour);
     color: var(--background-colour);
     transform: translateY(-5px);
-
-    animation: hover-bounce 1.5s infinite;
-    -webkit-animation: hover-bounce 1.5s infinite;
-    -moz-animation: hover-bounce 1.5s infinite;
 }
 
 /* smaller screen / tablet */

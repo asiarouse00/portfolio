@@ -101,12 +101,11 @@
         height: 50px;
         width: 50px;
         padding: 5px;
-        transition: 0.2s ease;
+        transition: 0.4s ease;
     }
 
     .contact-icon:hover {
         transform: translateY(-5px);
-        animation: hover-bounce 1.5s infinite;
     }
 
     .contact-icon:hover + .contact-icon-link {

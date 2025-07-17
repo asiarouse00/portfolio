@@ -17,7 +17,7 @@ function Landing(props) {
               <span>
                 front-end developer<br />
                 js react engineer<br />
-                web designer<br />
+                ui designer<br />
                 devoted knitter<br />
               </span>
             </div>

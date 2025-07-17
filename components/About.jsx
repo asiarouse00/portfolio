@@ -3,6 +3,7 @@ import '../css/About.css'
 import selfie from '../src/assets/me.png'
 import cplusplus from '../src/assets/logos/cplusplus.png'
 import css from '../src/assets/logos/css.png'
+import figma from '../src/assets/logos/figma.png'
 import js from '../src/assets/logos/js.png'
 import python from '../src/assets/logos/python.png'
 import react from '../src/assets/logos/react.png'
@@ -42,6 +43,10 @@ function About(props) {
                         <div className='tech'>
                             <img src={css} />
                             <h4>css</h4>
+                        </div>
+                        <div className='tech'>
+                            <img src={figma} />
+                            <h4>figma</h4>
                         </div>
                         <div className='tech'>
                             <img src={js} />
